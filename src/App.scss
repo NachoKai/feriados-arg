@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body {
+  background: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  font-size: 20px;
+  height: 100vh;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.container,
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.content,
+.loading {
+  text-decoration: none;
+  background: #eeeeee33;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #ffffff4d;
+  backdrop-filter: blur(25px);
+  width: 400px;
+  max-height: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotateX(10deg) rotateY(-15deg) rotateZ(2deg);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  color: #222222e6;
+
+  &:hover {
+    transform: rotate(0);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+      0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    color: #222;
+    cursor: pointer;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.quantity {
+  font-size: 1.4rem;
+  margin: 0 0 16px 0;
+}
+
+.reason {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.date {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #22222280;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.day {
+  font-size: 2.5rem;
+  margin: 16px 0;
+}
+
+.type {
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+.others {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.optional {
+  font-size: 1rem;
+}
+
+.origin {
+  font-size: 1rem;
+}
+
+.religion {
+  font-size: 1rem;
+}
+
+.flag {
+  position: absolute;
+  margin: auto;
+  width: 600px;
+  height: 380px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ffffff4d;
+  z-index: -1;
+}
