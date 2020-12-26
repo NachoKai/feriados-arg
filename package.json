@@ -2,7 +2,7 @@
   "name": "no-laborable",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NachoKai.github.io/feriados-arg",
+  "homepage": "http://NachoKai.github.io/feriados-arg",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
