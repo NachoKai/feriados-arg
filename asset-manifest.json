@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/feriados-arg/static/css/main.210dc9b1.chunk.css",
-    "main.js": "/feriados-arg/static/js/main.7fd6bc3b.chunk.js",
-    "main.js.map": "/feriados-arg/static/js/main.7fd6bc3b.chunk.js.map",
+    "main.js": "/feriados-arg/static/js/main.9fa2eab1.chunk.js",
+    "main.js.map": "/feriados-arg/static/js/main.9fa2eab1.chunk.js.map",
     "runtime-main.js": "/feriados-arg/static/js/runtime-main.e222b372.js",
     "runtime-main.js.map": "/feriados-arg/static/js/runtime-main.e222b372.js.map",
     "static/js/2.b93b1a8d.chunk.js": "/feriados-arg/static/js/2.b93b1a8d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e222b372.js",
     "static/js/2.b93b1a8d.chunk.js",
     "static/css/main.210dc9b1.chunk.css",
-    "static/js/main.7fd6bc3b.chunk.js"
+    "static/js/main.9fa2eab1.chunk.js"
   ]
 }
