@@ -67,7 +67,7 @@ const App = () => {
       setDiff(
         diffDays(
           `${today.month}/${today.day}/${year}`,
-          `${holiday.mes}/${holiday.dia}/${year + 1}`
+          `${holiday.mes}/${holiday.dia}/${year}`
         )
       );
     };
